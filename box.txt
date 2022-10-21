@@ -8,7 +8,19 @@
 {
 "spider":"https://ghproxy.com/https://raw.githubusercontent.com/tv-player/tvbox-line/main/box/jar/sn5gxhq9.jar;md5;c29c1ee624fc82de3432cc78825209b4",
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
-"lives": [{"group": "redirect","channels": [{"name": "live","urls": ["proxy://do=live&type=txt&ext=aHR0cDovL2Z0cDYyODQ5MjguaG9zdDEwOC5hYmVpeXVuLmNuL2xpdmUudHh0"]}]}],
+"lives": [
+    {
+      "group": "redirect",
+      "channels": [
+        {
+          "name": "live",
+          "urls": [
+            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9naHByb3h5LmNvbS9odHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vamlnZWRvcy96YnkvbWFpbi9zaG93Ym94djgyOC50eHQ="
+          ]
+        }
+      ]
+    }
+  ],
 "sites":[
   {"key":"csp_Kunyu77","name":"七七","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
   {"key":"293视频","name":"293","type":3,"api":"csp_SP293","searchable":1,"quickSearch":1,"filterable":1},
@@ -42,7 +54,7 @@
   {"key":"csp_Yiso","name":"易搜","type":3,"api":"csp_Yiso","searchable":1,"quickSearch":1,"filterable":0,"ext":"4acb3ad2f2254ba1b566279f7cd98ba3"},
   {"key":"push_agent","name":"推送","type":3,"api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0,"ext":"4acb3ad2f2254ba1b566279f7cd98ba3"},
   {"key":"csp_xpath_clss","name":"磁力搜索","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://ftp6284928.host108.abeiyun.cn/MaooXB/%E7%A3%81%E5%8A%9B%E6%90%9C%E7%B4%A2.json"},
-  {"key":"csp_BBB","name":"哔哩哔哩","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://ftp6284928.host108.abeiyun.cn/MaooXB/%E5%93%94%E5%93%A9%E5%A5%97%E9%A4%90.json"},
+  {"key":"csp_BBB","name":"哔哩哔哩","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/jigedos/tvbox1/main/jk/json/哔哩哔哩.json"},
   {"key":"儿童","name":"儿童乐园","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://ftp6284928.host108.abeiyun.cn/MaooXB/%E5%84%BF%E7%AB%A5%E4%B9%90%E5%9B%AD.json"},
   {"key":"学习","name":"学习园地","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://ftp6284928.host108.abeiyun.cn/MaooXB/%E5%AD%A6%E4%B9%A0%E5%9B%AD%E5%9C%B0.json"},
   {"key":"音乐","name":"音乐现场","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://ftp6284928.host108.abeiyun.cn/MaooXB/%E9%9F%B3%E4%B9%90%E7%8E%B0%E5%9C%BA.json"},
