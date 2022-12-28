@@ -4,6 +4,16 @@
             "key": "网页",
             "title": "网页调试",
             "pic": "http://img.cankaowang.com/202012/066.jpg"
+        },
+        {
+            "key": "历史",
+            "title": "历史",
+            "pic": "http://pic.netbian.com/uploads/allimg/161004/221627-1475590587ba17.jpg"
+        },
+        {
+            "key": "收藏",
+            "title": "收藏",
+            "pic": "http://pic.netbian.com/uploads/allimg/161004/221627-1475590587ba17.jpg"
         }
     ],
     "zhuyejiekou": [
